@@ -21,3 +21,27 @@ cout<<"sub= "<<sub<<endl;
 
 return 0;
 }
+
+//page 84 question 9
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "char 所占字节为（the byte of char are）" << sizeof(char) << endl;
+    cout << "int 所占字节为（the byte of int are）" << sizeof(int) << endl;
+    cout << "float所占字节为（the byte of float are）" << sizeof(float) << endl;
+    cout << "double 所占字节为（the byte of double are）" << sizeof(double) << endl;
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
