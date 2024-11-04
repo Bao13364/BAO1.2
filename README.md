@@ -35,12 +35,43 @@ int main() {
 }
 
 
+P84 question 10
 
+#include <iostream>
+using namespace std;
 
+double MPG(double MilesDriven, double GallonUsed) {
+    double num = MilesDriven / GallonUsed;
+    return num;
+}
 
+int main() {
+    double a = 0, b = 0;
 
+    cout << "Enter the miles driven: ";
+    cin >> a;
+    cout << "Enter the gallons of gas used: ";
+    cin >> b;
 
+    double mpg = MPG(a, b);
 
+    cout << "Your MPG is " << mpg << endl;
+
+    system("pause");
+    return 0;
+}
+ question 12
+#include<iostream>
+using namespace std;
+int main() {
+	double acre, squareFeet,N;
+	N = 1.0/43560;
+	cout << "enter square feet";
+	cin >> squareFeet;
+	cout << endl;
+	cout << squareFeet << " is equal to " << N * squareFeet << " acre" << endl;
+
+}
 
 
 
