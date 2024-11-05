@@ -73,6 +73,22 @@ int main() {
 
 }
 
+question 13
 
-
-
+#include<iostream>
+using namespace std;
+float SellingPrize()
+{
+	float cost;
+	cout << "enter your cost: " ;
+	cin >> cost;
+	float prize;
+	prize = cost/0.65;
+	cout << "prize is " << prize;
+	return prize;
+}
+int main(){
+	float cost, prize;
+	prize = SellingPrize();
+	return 0;
+}
