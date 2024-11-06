@@ -1,4 +1,4 @@
-//Page 84 question 8. Total Purchase
+//Page 84 question 8
 #include<iostream>
 using namespace std;
 int main(){
@@ -92,3 +92,52 @@ int main(){
 	prize = SellingPrize();
 	return 0;
 }
+question 15
+#include<iostream>
+using namespace std;
+int main() {
+	int n=5,i,j;
+	cout << "enter the rows: \n";
+	for (i = 1; i < n;i++) {
+		for (j = 0; j < 4 - i;j++) {
+			cout << " ";
+		}
+		for (j = 0; j < 2 * i -1;j++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+}
+
+question 16
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n = 4, i, j;
+
+	for (i = 1; i <= n; i++) {
+		for (j = 0; j < 4 - i; j++) {
+			cout << " ";
+		}
+		for (j = 0; j < 2 * i - 1; j++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+
+
+	for (int a = 1; a <= 3; a++)
+	{
+		for (int j = 0; j < a; j++)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j < ( - 2 * a) +7; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+}
+
